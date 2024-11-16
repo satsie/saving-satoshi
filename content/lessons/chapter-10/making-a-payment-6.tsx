@@ -59,29 +59,40 @@ export default function MakingAPayment6({ lang }) {
           {t('chapter_ten.making_a_payment_six.paragraph_three')}
         </Text>
 
-        <Text className="mt-4 text-lg font-semibold md:text-xl">
+        <Text className="mt-4 text-lg font-semibold underline md:text-xl">
           {t('chapter_ten.making_a_payment_six.paragraph_four')}
         </Text>
-
-        <ul className="ml-4 list-disc  font-nunito text-xl">
+        <ul className="ml-14 list-disc font-nunito text-xl">
           <li>
             {t('chapter_ten.making_a_payment_six.commitment_one_you.list_one')}
           </li>
           <li>
             {t('chapter_ten.making_a_payment_six.commitment_one_you.list_two')}
           </li>
+          <li>
+            {t(
+              'chapter_ten.making_a_payment_six.commitment_one_you.list_three'
+            )}
+          </li>
         </ul>
 
-        <Text className="mt-4 text-lg font-semibold md:text-xl">
+        <Text className="mt-4 text-lg font-semibold underline md:text-xl">
           {t('chapter_ten.making_a_payment_six.paragraph_five')}
         </Text>
-
-        <ul className="ml-4 list-disc  font-nunito text-xl">
+        <ul className="ml-14 list-disc  font-nunito text-xl">
           <li>
             {t('chapter_ten.making_a_payment_six.commitment_two_you.list_one')}
           </li>
           <li>
             {t('chapter_ten.making_a_payment_six.commitment_two_you.list_two')}
+          </li>
+          <li>
+            {t(
+              'chapter_ten.making_a_payment_six.commitment_two_you.list_three'
+            )}
+          </li>
+          <li>
+            {t('chapter_ten.making_a_payment_six.commitment_two_you.list_four')}
           </li>
         </ul>
 
@@ -89,11 +100,10 @@ export default function MakingAPayment6({ lang }) {
           {t('chapter_ten.making_a_payment_six.paragraph_six')}
         </Text>
 
-        <Text className="mt-4 text-lg font-semibold md:text-xl">
+        <Text className="mt-4 text-lg font-semibold underline md:text-xl">
           {t('chapter_ten.making_a_payment_six.paragraph_seven')}
         </Text>
-
-        <ul className="ml-4 list-disc  font-nunito text-xl">
+        <ul className="ml-14 list-disc  font-nunito text-xl">
           <li>
             {t(
               'chapter_ten.making_a_payment_six.commitment_two_laszlo.list_one'
@@ -107,6 +117,11 @@ export default function MakingAPayment6({ lang }) {
           <li>
             {t(
               'chapter_ten.making_a_payment_six.commitment_two_laszlo.list_three'
+            )}
+          </li>
+          <li>
+            {t(
+              'chapter_ten.making_a_payment_six.commitment_two_laszlo.list_four'
             )}
           </li>
         </ul>
